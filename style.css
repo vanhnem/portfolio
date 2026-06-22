@@ -1,16 +1,23 @@
 /* body */
 body {
-
+    height: 2000px;
+    width: 100px;
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5cHNwdzZlMndveXV1M3g4aGFsNDY2dWxubzlnMDVsaXZ1YXFweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
+    background-position: center;
+    background-size: 80% 80%;
+    margin: 0px;
+    background-repeat: repeat;
 }
 
 /* navbar */ 
 nav{
+    margin: 50px;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    justify-content:center;
+    /*justify-content: space-between;*/
+    justify-content: right;
 }
 nav ul {
     display: flex;
@@ -20,8 +27,11 @@ nav ul {
 nav ul li {
     margin-right: 10px;
 }
+
 /* buttons */
 .buttons {
+    margin-left: auto;
+    margin-right: auto;
     text-shadow:0px 0px 1px;
     background: none;
     font-family: "Figtree", sans-serif;
@@ -29,4 +39,16 @@ nav ul li {
     width: 100px;
     height: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*
+.about{
+   
+}
+*/
+ h1{
+    font-family: "Figtree", sans-serif;
+    margin-left: 20px;
+    color: white;
+    z-index: 1;
 }
