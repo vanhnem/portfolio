@@ -1,22 +1,22 @@
 /* body */
 body {
-    height: 2000px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
     background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5cHNwdzZlMndveXV1M3g4aGFsNDY2dWxubzlnMDVsaXZ1YXFweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
     background-position: center;
-    background-size: 80% 80%;
+    background-size: 100% 100%;
     margin: 0px;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 
 /* navbar */ 
-nav{
+nav {
     margin: 50px;
 }
 
 .navbar {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     justify-content: right;
 }
 nav ul {
@@ -29,7 +29,8 @@ nav ul li {
 }
 
 /* buttons */
-.buttons {
+button {
+    color: white;
     margin-left: auto;
     margin-right: auto;
     text-shadow:0px 0px 1px;
@@ -41,11 +42,55 @@ nav ul li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/*
-.about{
-   
+/*.abt-me-btn {
+
 }
 */
+.hero {
+    color: white;
+    border: 1px solid #ccc;
+    border-width: 100%;
+    object-fit: contain;
+    height: 1000px;
+    padding: 20px;
+}
+
+.about-me {
+   color: white;
+   border: 1px solid #ccc;
+   border-width: 100%;
+   object-fit: contain;
+   height: 1000px;
+   padding: 20px;
+}
+
+.projects {
+   color: white;
+   border: 1px solid #ccc;
+   border-width: 100%;
+   object-fit: contain;
+   height: 1000px;
+   padding: 20px;
+}
+
+.tests {
+   color: white;
+   border: 1px solid #ccc;
+   border-width: 100%;
+   object-fit: contain;
+   height: 1000px;
+   padding: 20px;
+}
+
+.cta {
+   color: white;
+   border: 1px solid #ccc;
+   border-width: 100%;
+   object-fit: contain;
+   height: 1000px;
+   padding: 20px;
+}
+
  h1{
     font-family: "Figtree", sans-serif;
     margin-left: 20px;
