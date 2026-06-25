@@ -1,15 +1,15 @@
 /* body */
 body {
-    height: 100%;
-    width: 100%;
-    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5cHNwdzZlMndveXV1M3g4aGFsNDY2dWxubzlnMDVsaXZ1YXFweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
-    background-position: center;
-    background-size: 100% 100%;
-    margin: 0px;
-    background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5cHNwdzZlMndveXV1M3g4aGFsNDY2dWxubzlnMDVsaXZ1YXFweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7aDcrsww5Ybp18hq/giphy.gif");
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
 }
 
-/* navbar */ 
+/* navbar */
 nav {
   display: flex;
   justify-content: center;
@@ -25,17 +25,18 @@ nav {
   border-color: white;
   backdrop-filter: blur(100px);
   position: fixed;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
 }
+
 nav ul {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 nav ul li {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 /* buttons 
@@ -54,7 +55,7 @@ button {
     */
 
 /* button animation */
-/* From Uiverse.io by dalbrechtmartin */ 
+/* From Uiverse.io by dalbrechtmartin */
 button,
 .home-btn,
 .abt-me-btn,
@@ -210,72 +211,83 @@ button:hover .star-6 {
   fill: #fffdef;
 }
 
-.hero {
+.page {
   backdrop-filter: blur(10px);
   margin: 120px;
-    color: white;
-    border: 1px solid #ccc;
-    border-width: 100%;
-    object-fit: contain;
-    height: 1000px;
-    padding: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-width: 100%;
+  object-fit: contain;
+  height: 1000px;
+  padding: 20px;
 }
+
+#hero h1{
+  size: 100px;
+}
+
+
 
 .about-me {
   backdrop-filter: blur(10px);
   margin: 120px;
-   color: white;
-   border: 1px solid #ccc;
-   border-width: 100%;
-   object-fit: contain;
-   height: 1000px;
-   padding: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-width: 100%;
+  object-fit: contain;
+  height: 1000px;
+  padding: 20px;
 }
 
 .projects {
   backdrop-filter: blur(10px);
   margin: 120px;
-   color: white;
-   border: 1px solid #ccc;
-   border-width: 100%;
-   object-fit: contain;
-   height: 1000px;
-   padding: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-width: 100%;
+  object-fit: contain;
+  height: 1000px;
+  padding: 20px;
 }
 
 .tests {
   backdrop-filter: blur(10px);
   margin: 120px;
-   color: white;
-   border: 1px solid #ccc;
-   border-width: 100%;
-   object-fit: contain;
-   height: 1000px;
-   padding: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-width: 100%;
+  object-fit: contain;
+  height: 1000px;
+  padding: 20px;
 }
 
 .cta {
   backdrop-filter: blur(10px);
   margin: 120px;
-   color: white;
-   border: 1px solid #ccc;
-   border-width: 100%;
-   object-fit: contain;
-   height: 1000px;
-   padding: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-width: 100%;
+  object-fit: contain;
+  height: 1000px;
+  padding: 20px;
 }
 
- h1{
-  margin: 100px;
-    font-family: "Figtree", sans-serif;
-    margin-left: 20px;
-    color: white;
-    z-index: 1;
+h1 {
+  margin: 10px;
+  font-family: "Figtree", sans-serif;
+  margin-left: 20px;
+  color: white;
+  z-index: 1;
 }
 
 p {
   margin: 10px;
-    font-family: "Figtree", sans-serif;
-    margin-left: 20px;
-    color: white;
+  font-family: "Figtree", sans-serif;
+  margin-left: 20px;
+  color: white;
+}
+
+/* transition */
+.transition-fade .page {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
