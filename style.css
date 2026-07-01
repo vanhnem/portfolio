@@ -294,26 +294,18 @@ button:hover .star-6 {
   padding: 20px;
 }
 
-/*
-h1 {
-  margin: 10px;
-  font-family: "Figtree", sans-serif;
-  margin-left: 20px;
-  color: white;
-  z-index: 1;
+#hero {
+  height: 800px;
 }
 
-p {
-  margin: 10px;
-  font-family: "Figtree", sans-serif;
-  margin-left: 20px;
-  color: white;
+#about-me {
+  height: 900px;
 }
-*/
-/* transition */
-
 
 /* project card animations */
+#projects {
+  height: 850px;
+}
 .u-center-text {
   text-align: center !important;
 }
@@ -328,7 +320,7 @@ p {
 }
 
 .u-margin-top-big {
-  margin-top: 5rem !important;
+  margin-top: 1rem !important;
 }
 
 
@@ -416,7 +408,7 @@ p {
 
 .btn--white {
   background-color: #fff;
-  color: #777;
+  color: #000000;
 }
 
 .btn--white::after {
@@ -445,7 +437,7 @@ body {
 
 .section-plans {
   background-color: none;
-  padding: 4rem 0 4rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .card {
@@ -473,7 +465,7 @@ body {
 }
 
 .card__side--front {
-  background-color: #fff;
+  background-color: #000000;
 }
 
 .card__side--front-1 {
@@ -494,15 +486,15 @@ body {
 }
 
 .card__side--back-1 {
-  background: linear-gradient(-45deg, #ffffff, #9e989d);
+  background: linear-gradient(-45deg, #ffffff, #ffffff);
 }
 
 .card__side--back-2 {
-  background: linear-gradient(-45deg, #ffffff, #9e989d);
+  background: linear-gradient(-45deg, #ffffff, #ffffff);
 }
 
 .card__side--back-3 {
-  background: linear-gradient(-45deg, #ffffff, #9e989d);
+  background: linear-gradient(-45deg, #ffffff, #ffffff);
 }
 
 .card:hover .card__side--front-1,
@@ -578,7 +570,7 @@ body {
 }
 
 .card__details ul li:not(:last-child) {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #000000;
 }
 
 .card__cta {
@@ -595,7 +587,7 @@ body {
 .card__price-box {
   margin-top: 2rem;
   text-align: center;
-  color: #fff;
+  color: #000000;
   margin-bottom: 8rem;
 }
 
@@ -607,7 +599,7 @@ body {
 
 .row {
   max-width: 114rem;
-  margin: 10rem auto;
+  margin: 5rem auto;
 }
 
 .row:not(:last-child) {
@@ -652,7 +644,12 @@ body {
 }
 
 .form-control {
-  margin-left: 5px;
+  margin-top: 5px;
+  margin-left: 5x;
+}
+
+#cta .btn {
+  margin-left: 40px;
 }
 
 
@@ -663,7 +660,7 @@ body {
 #sources a:link,
 #sources a:visited {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 5rem;
 }
 
