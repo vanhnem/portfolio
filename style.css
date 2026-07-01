@@ -634,6 +634,10 @@ body {
 }
 
 /* CTA */
+
+#cta {
+  height: 600px;
+}
 #cta h1 {
   text-align: center;
   margin: 35px 0 20px 0 !important;
@@ -652,3 +656,17 @@ body {
 }
 
 
+/* end of CTA */
+
+/* Sources containers */
+
+#sources a:link,
+#sources a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 5rem;
+}
+
+#sources {
+  height: 500px;
+}
