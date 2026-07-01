@@ -61,7 +61,7 @@ button,
 .home-btn,
 .abt-me-btn,
 .proj-btn,
-.test-btn,
+.sources-btn,
 .cta-btn {
   position: relative;
   padding: 20px 35px;
@@ -223,10 +223,14 @@ button:hover .star-6 {
   padding: 20px;
 }
 
-#hero h1{
-  size: 100px;
+#hero h1 {
+  margin: 40px;
+  font-size: 200px;
 }
-
+#hero .btn,
+#hero p {
+  margin: 40px;
+}
 
 
 .about-me {
@@ -244,6 +248,19 @@ button:hover .star-6 {
   transition: opacity 1s ease, transform 1s ease, filter 1s ease;
 }
 
+#nhs,
+#kc,
+#me {
+  height: 200px;
+}
+
+.container {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .projects {
   backdrop-filter: blur(10px);
   margin: 120px;
@@ -255,7 +272,7 @@ button:hover .star-6 {
   padding: 20px;
 }
 
-.tests {
+.sources {
   backdrop-filter: blur(10px);
   margin: 120px;
   color: white;
@@ -615,3 +632,23 @@ body {
 .row .col-1-of-3 {
   width: calc((100% - 2 * 6rem) / 3);
 }
+
+/* CTA */
+#cta h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+}
+
+#cta .container {
+  justify-content: center;
+}
+
+.form-group {
+  margin-left: 5px;
+}
+
+.form-control {
+  margin-left: 5px;
+}
+
+

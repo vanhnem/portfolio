@@ -263,8 +263,8 @@
           </button>
         </li>
         <li>
-          <button class="test-btn">
-            Testimonials
+          <button class="cta-btn">
+            CTA
             <div class="star-1">
               <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
                 style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
@@ -346,8 +346,8 @@
           </button>
         </li>
         <li>
-          <button class="cta-btn">
-            CTA
+          <button class="sources-btn">
+            Sources
             <div class="star-1">
               <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53"
                 style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
@@ -433,6 +433,8 @@
   </nav>
   <section class="page active" id="hero">
     <h1>Vanhnem Darkhuah</h1>
+    <p>Young professional seeking a career in technology.</p>
+    <button class="btn">Learn More</button>
   </section>
 
 
@@ -440,20 +442,27 @@
   <section class="page" id="about-me">
     <h1> About me</h1>
     <br>
+    <div class="container">
+    <img id="me" src="me.jpeg">
     <p>Hi! My name is Vanhnem Darkhuah, and I am currently a senior at Perry Meridian High School. A long-term goal of
       mine is to pursue a technology career and
       contribute to philanthropic purposes. Thus far, to challenge myself with our school's curriculum, I have taken a
       variety of AP courses: AP Computer Science A, AP Physics 1: Algebra-based, AP Seminar,
       AP US History, AP Literature and Composition, and AP World History, and I plan to take more this upcoming year.
+      In relation to technology, I have taken all of the Computer Science classes available at my school and found
+      myself enjoying creating projects and bringing my ideas to life.
     </p>
-    <div>
+    </div>
+    <div class="container">
       <p>As a student who has taken French I-IV and plans on taking AP French next year, I've been committed to our
         school's/district's French program for the past four years. I have also been a Representative for French Honor
         Society for two consecutive years,
         where I am tasked with the responsibility of handling the club's volunteer opportunities.
       </p>
+      <img id="nhs" src="nhs.jpg">
     </div>
-    <div>
+    <div class="container">
+      <img id="kc" src="kc.PNG">
       <p>
         Additionally, I have been a Key Club member since my sophomore year, and became a Junior Director my junior
         year. As a director,
@@ -527,26 +536,18 @@
             <div class="card__side card__side--front-3">
               <div class="card__title card__title--3">
                 <i class="fas fa-rocket"></i>
-                <h4 class="card__heading">Pro</h4>
+                <h4 class="card__heading">Boss Fight Game</h4>
               </div>
 
               <div class="card__details">
-                <ul>
-                  <li>Includes Plus Plan Features</li>
-                  <li>High Performance</li>
-                  <li>2 Spam Experts</li>
-                  <li>Free SSL Certificate</li>
-                  <li>Domain Privacy</li>
-                  <li>Site Backup - CodeGuard Basic</li>
-                </ul>
               </div>
             </div>
             <div class="card__side card__side--back card__side--back-3">
               <div class="card__cta">
                 <div class="card__price-box">
-                  <p class="card__info">Soon to be revealed..</p>
+                  <p class="card__info">An interactive game I made in my Intro to Computer Science class freshman year.</p>
                 </div>
-                <a href="https://github.com/vanhnem/int-u3-project-23-24-starter-code.git" class="btn btn--white">Select</a>
+                <a href="https://studio.code.org/projects/gamelab/6f5deab6-cb00-4cb4-8da6-cd15b77fc49d" class="btn btn--white">Select</a>
               </div>
             </div>
           </div>
@@ -559,14 +560,33 @@
     </section>
   </section>
 
-  <!--testimonials-->
-  <section class="page" id="tests">
-    <h1>Nothing here yet...</h1>
-  </section>
-
   <!--CTA-->
   <section class="page" id="cta">
     <h1>Reach out to me!</h1>
+    <div class="container">
+  <form target="_blank" action="https://formsubmit.co/vdarkhuah270@gmail.com" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" style="font-family: Figtree; width:200px" name="name" class="form-control" placeholder="Name" required>
+        </div>
+        <div class="col">
+          <input type="email" style="font-family: Figtree; width:200px" name="email" class="form-control" placeholder="Email" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Enter your message here." style="font-family: Figtree; width:200px; height:200px" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+  </form>
+</div>
+  </section>
+
+  <!--Sources-->
+  <section class="page" id="sources">
+    <h1>Sources</h1>
   </section>
 
 </body>

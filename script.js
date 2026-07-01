@@ -1,31 +1,39 @@
 let abtBtn = document.querySelector('.abt-me-btn');
 let abtScreen = document.querySelector('#about-me');
 let projScreen = document.querySelector('#projects');
-let testScreen = document.querySelector('#tests');
 let ctaScreen = document.querySelector('#cta');
+let sourcesScreen = document.querySelector('#sources');
 let hero = document.querySelector('#hero');
+let learnBtn = document.querySelector('.btn');
 
 // start screen
 hero.style.display = 'block';
 abtScreen.style.display = 'none';
 projScreen.style.display = 'none';
-testScreen.style.display = 'none';
+sourcesScreen.style.display = 'none';
 ctaScreen.style.display = 'none';
 let homeBtn = document.querySelector(".home-btn");
 homeBtn.addEventListener('click', function () {
     hero.style.display = 'block';
     abtScreen.style.display = 'none';
     projScreen.style.display = 'none';
-    testScreen.style.display = 'none';
+    sourcesScreen.style.display = 'none';
     ctaScreen.style.display = 'none';
 })
 
+learnBtn.addEventListener('click', function() {
+    abtScreen.style.display = 'block';
+    hero.style.display = 'none';
+    projScreen.style.display = 'none';
+    sourcesScreen.style.display = 'none';
+    ctaScreen.style.display = 'none';
+})
 // abt me screen
 abtBtn.addEventListener('click', function () {
     abtScreen.style.display = 'block';
     hero.style.display = 'none';
     projScreen.style.display = 'none';
-    testScreen.style.display = 'none';
+    sourcesScreen.style.display = 'none';
     ctaScreen.style.display = 'none';
 })
 
@@ -35,24 +43,24 @@ projectsBtn.addEventListener('click', function () {
     projScreen.style.display = 'block';
     hero.style.display = 'none';
     abtScreen.style.display = 'none';
-    testScreen.style.display = 'none';
+    sourcesScreen.style.display = 'none';
     ctaScreen.style.display = 'none';
 })
 
 // testimonials screen
-let testBtn = document.querySelector('.test-btn');
-testBtn.addEventListener('click', function () {
-    testScreen.style.display = 'block';
-    hero.style.display = 'none';
-    abtScreen.style.display = 'none';
-    projScreen.style.display = 'none';
-    ctaScreen.style.display = 'none';
-})
-
 let ctaBtn = document.querySelector('.cta-btn');
 ctaBtn.addEventListener('click', function () {
     ctaScreen.style.display = 'block';
-    testScreen.style.display = 'none';
+    hero.style.display = 'none';
+    abtScreen.style.display = 'none';
+    projScreen.style.display = 'none';
+    sourcesScreen.style.display = 'none';
+})
+
+let sourcesBtn = document.querySelector('.sources-btn');
+sourcesBtn.addEventListener('click', function () {
+    sourcesScreen.style.display = 'block';
+    ctaScreen.style.display = 'none';
     hero.style.display = 'none';
     abtScreen.style.display = 'none';
     projScreen.style.display = 'none';
@@ -79,3 +87,5 @@ navButtons.forEach(button => {
     });
 
 })
+
+
