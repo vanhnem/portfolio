@@ -4,7 +4,7 @@ let projScreen = document.querySelector('#projects');
 let ctaScreen = document.querySelector('#cta');
 let sourcesScreen = document.querySelector('#sources');
 let hero = document.querySelector('#hero');
-let learnBtn = document.querySelector('.btn');
+let learnBtn = document.querySelector('.learn-btn');
 
 // start screen
 hero.style.display = 'block';
